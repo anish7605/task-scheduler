@@ -40,3 +40,11 @@ CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
 g++ -std=c++17 test_TaskScheduler.cpp -lgtest -lgtest_main -pthread -o test_tasks
 ./test_tasks
 ```
+
+## Code Style Checks
+
+- brew install llvm
+- echo 'export PATH="/opt/homebrew/opt/llvm/bin:$PATH"' >> ~/.zshrc
+- source ~/.zshrc
+- clang-tidy --version
+- clang-tidy $(find . -name '*.cpp' ! -name 'test_*') -- -I/opt/homebrew/include
