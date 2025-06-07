@@ -48,3 +48,24 @@ g++ -std=c++17 test_TaskScheduler.cpp -lgtest -lgtest_main -pthread -o test_task
 - source ~/.zshrc
 - clang-tidy --version
 - clang-tidy $(find . -name '*.cpp' ! -name 'test_*') -- -I/opt/homebrew/include
+
+---
+
+Unleash the Power of Clang Tide: Wash Away Code Smells with a Sparkle!
+
+Say goodbye to the stench of messy code with Clang Tide, the ultimate code smell removal tool that leaves your software sparkling clean! 🚀 
+
+Designed for developers who demand pristine, maintainable code, Clang Tide dives deep into your C++ codebase, sniffing out and scrubbing away those pesky code smells—like bloated functions, tangled classes, or sneaky duplicates—that slow down progress and stink up your project. 😷
+
+With Clang Tide, you get:
+Lightning-Fast Detection: Powered by Clang’s cutting-edge static analysis, it pinpoints code smells with surgical precision, saving you hours of manual debugging. 🕵️‍♂️
+
+One-Tap Refactoring: Transform smelly code into clean, modular masterpieces with automated fixes that keep your project fresh and future-proof. 🧼
+
+Linux-Friendly Freshness: Seamlessly integrates with gcc or clang on Linux, ensuring a smooth, hassle-free clean-up for every developer. 🐧
+
+Scalable Shine: From small scripts to massive systems, Clang Tide tackles code smells of all sizes, boosting readability, maintainability, and team morale! ✨
+
+Don’t let code smells linger and foul up your workflow. With Clang Tide, your codebase will smell as good as it runs—clean, crisp, and ready to impress! Try it now and experience the fresh difference! 🌊💻
+
+For more details, check out clang.llvm.org or your favorite software development community!
